@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-06 21:59-0300\n"
 "PO-Revision-Date: 2010-12-15 17:52+0700\n"
-"Last-Translator: Richard Samuel <dewa5227@gmail.com>\n"
-"Language-Team: Indonesian <dewa5227@yahoo.com>\n"
+"Last-Translator: M Iqbal Tawakkal <tawakkal.iqbal96@gmail.com>\n"
+"Language-Team: Computing Lab <Telkom University>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Stack TCP/IP Windows anda terdapat kesalahan/kerusakan. Silahkan baca\n"
 "  %s\n"
-"untuk mempelajari bagaimana mengatasinya."
+"untuk mempelajari bagaimana menyelesaikan permasalahan ini."
 
 #: ../../openkore.pl:165
 msgid ""
@@ -84,6 +84,8 @@ msgid ""
 "Error in use item %s\n"
 "This item is not usable\n"
 msgstr ""
+"Error saat menggunakan %s\n"
+"Item ini tidak bisa digunakan"
 
 #: ../Actor/Item.pm:433 ../Actor/Item.pm:454
 msgid "Wrong equip slot specified\n"
@@ -152,7 +154,7 @@ msgstr "Mengequip Secara Otomatis [A]: %s\n"
 #: ../Actor/You.pm:301
 #, perl-format
 msgid "Change Attack Distance to : %s\n"
-msgstr "Merubah attackDistance menjadi : %s\n"
+msgstr "Merubah Jarak Serangan menjadi : %s\n"
 
 #: ../Actor/You.pm:306
 #, perl-format
@@ -182,7 +184,7 @@ msgstr "Merubah Menyerang menggunakan Senjata (useWeapon) ke Default : %s\n"
 #: ../AI/Attack.pm:119
 #, perl-format
 msgid "Dropping target - %s (%s) has been provoked\n"
-msgstr "Pembatalan target - %s (%s) telah di-provoke\n"
+msgstr "Menjatuhkan target - %s (%s) telah dilakukan\n"
 
 #: ../AI/Attack.pm:148
 msgid "Can't reach or damage target, dropping target\n"
@@ -207,8 +209,7 @@ msgstr "Target hilang\n"
 
 #: ../AI/Attack.pm:214 ../AI/Attack.pm:385
 msgid "Dropping target - you will not kill steal others\n"
-msgstr ""
-"Pembatalan target - anda tidak akan melakukan kill steal pada lainnya\n"
+msgstr "Pembatalan target - anda tidak akan melakukan kill steal pada lainnya\n"
 
 #: ../AI/Attack.pm:442
 #, perl-format
@@ -218,19 +219,19 @@ msgstr "%s; berjalan ke (%s, %s)\n"
 #: ../AI/Attack.pm:451
 #, perl-format
 msgid "%s; no acceptable place to stand\n"
-msgstr "%s; tidak ada tempat yang memperbolehkan untuk berdiri\n"
+msgstr "%s; bukan tempat yang diperbolehkan untuk berdiri\n"
 
 #: ../AI/Attack.pm:536
 msgid "Unable to calculate a route to target, dropping target\n"
-msgstr "Tidak dapat mengkalkulasi rute ke target, pembatalan target\n"
+msgstr "Tidak dapat mengkalkulasi sebuah rute ke target, pembatalan target\n"
 
 #: ../AI/CoreLogic.pm:575
 msgid "Escaping to into nearest portal.\n"
 msgstr "melarikan diri melalui portal terdekat.\n"
 
 #: ../AI/CoreLogic.pm:583
-msgid "Found warp portal escaping into warp portal.\n"
-msgstr "Menemukan warp portal melarikan diri menuju warp portal.\n"
+msgid "Found warp portal, escaping into warp portal.\n"
+msgstr "Menemukan warp portal, melarikan diri menuju warp portal.\n"
 
 #: ../AI/CoreLogic.pm:592
 msgid "Escape failed no portal found.\n"
@@ -247,7 +248,7 @@ msgstr ""
 #: ../AI/CoreLogic.pm:614 ../AI/CoreLogic.pm:2001
 #, perl-format
 msgid "Calculating random route to: %s: %s, %s\n"
-msgstr "Mengkalkulasi rute random ke: %s: %s, %s\n"
+msgstr "Mengkalkulasi rute acak ke: %s: %s, %s\n"
 
 #: ../AI/CoreLogic.pm:662
 msgid "Timeout equiping for skill\n"
@@ -307,7 +308,7 @@ msgstr "Mengakhiri koneksi saat kehabisan %s!\n"
 
 #: ../AI/CoreLogic.pm:1983
 msgid "Coordinate lockmap is used; randomWalk disabled\n"
-msgstr ""
+msgstr "Koordinat lockmap digunakan; randomWalk dinonaktifkan"
 
 #: ../AI/CoreLogic.pm:1998
 msgid ""
@@ -332,7 +333,7 @@ msgstr "Master meninggal. Saya akan menunggu disini .\n"
 
 #: ../AI/CoreLogic.pm:2130
 msgid "I lost my master\n"
-msgstr "Saya kehilangan master\n"
+msgstr "Saya kehilangan master saya\n"
 
 #: ../AI/CoreLogic.pm:2132
 msgid "Trying to get him back\n"
@@ -340,11 +341,11 @@ msgstr "mecoba untuk mendapatkan dia kembali\n"
 
 #: ../AI/CoreLogic.pm:2139 ../AI/CoreLogic.pm:2224
 msgid "My master disconnected\n"
-msgstr "Master telah disconnect\n"
+msgstr "Master saya telah disconnect\n"
 
 #: ../AI/CoreLogic.pm:2175 ../AI/CoreLogic.pm:2252
 msgid "My master teleported\n"
-msgstr "Master telah teleport\n"
+msgstr "Master saya telah teleport\n"
 
 #: ../AI/CoreLogic.pm:2179
 msgid "Trying to find lost master\n"
@@ -361,7 +362,7 @@ msgstr "Tidak dapat menemukan master, menyerah\n"
 #: ../AI/CoreLogic.pm:2248
 #, perl-format
 msgid "My master warped at (%s, %s) - moving to warp point\n"
-msgstr "Master warp ke (%s, %s) - berjalan ke warp point\n"
+msgstr "Master saya melakukan warp di (%s, %s) - berjalan ke titik warp\n"
 
 #: ../AI/CoreLogic.pm:2875
 #, perl-format
@@ -371,7 +372,7 @@ msgstr "Mengumpulkan: %s (%s)\n"
 #: ../AI/CoreLogic.pm:2892
 #, perl-format
 msgid "Failed to gather %s (%s) : Lost target\n"
-msgstr "Gagal untuk mengumpulkan %s (%s) : Kehilangan target\n"
+msgstr "Gagal untuk mengumpulkan %s (%s) : Target Hilang\n"
 
 #: ../AI/CoreLogic.pm:2900
 #, perl-format
@@ -424,11 +425,11 @@ msgstr ""
 
 #: ../AI/CoreLogic.pm:3072
 msgid "Respawning to save point.\n"
-msgstr "Spawn kembali ke simpan posisi.\n"
+msgstr "hidup kembali ke titik aman.\n"
 
 #: ../AI/CoreLogic.pm:3073
 msgid "** Respawning to save point.\n"
-msgstr "**Spawn kembali ke simpan posisi.\n"
+msgstr "** Hidup kembali ke titik aman.\n"
 
 #: ../AI/CoreLogic.pm:3126
 #, perl-format
@@ -456,7 +457,7 @@ msgstr ""
 
 #: ../AI/CoreLogic.pm:3213
 msgid "Pet hunger reaches the feed value.\n"
-msgstr ""
+msgstr "Tingkat kelaparan hewan peliharaan telah mencapai batas pemberian makan "
 
 #: ../AI/Slave.pm:184
 #, perl-format
@@ -465,7 +466,7 @@ msgstr "Menemukan %s!\n"
 
 #: ../AI/Slave.pm:189
 msgid "Stand By Homun\n"
-msgstr ""
+msgstr "Bersedia Homun"
 
 #: ../AI/Slave.pm:192
 #, perl-format
@@ -491,7 +492,7 @@ msgstr "Memberi makan secara otomatis pada %s (%d tingkat kelaparan).\n"
 
 #: ../AI/Slave/Homunculus.pm:40
 msgid "Homunculus hunger reaches the return value.\n"
-msgstr ""
+msgstr "Tingkat lapar Homunculus telah mencapai nilai tertentu.\n"
 
 #: ../Interface/Wx/List/ItemList/Cart.pm:15
 #: ../Interface/Wx/List/ItemList/Storage.pm:16 ../Interface/Wx/List.pm:21
@@ -766,7 +767,7 @@ msgstr "Kategori:"
 
 #: ../Interface/Wx/ConfigEditor.pm:75
 msgid "Click on one of the categories on the left to begin."
-msgstr "Klik 1 pada kategori di kiri untuk memulai."
+msgstr "Klik pada salah satu kategori di kiri untuk memulai."
 
 #: ../Interface/Wx/ConfigEditor.pm:163
 msgid "Option"
@@ -778,12 +779,12 @@ msgstr "Nilai"
 
 #: ../Interface/Wx/ConfigEditor.pm:196
 msgid "Downloading"
-msgstr "Downloading"
+msgstr "Mengunduh"
 
 #: ../Interface/Wx/ConfigEditor.pm:198
 #, fuzzy, perl-format
 msgid "Downloading help for '%s', please wait..."
-msgstr "Mendownload manual, mohon tunggu sebentar..."
+msgstr "Mengunduh bantuan untuk '%s', mohon tunggu sebentar..."
 
 #: ../Interface/Wx/ConfigEditor.pm:337
 #, perl-format
@@ -801,7 +802,7 @@ msgstr ""
 #: ../Interface/Wx/ItemList.pm:212
 #, fuzzy, perl-format
 msgid "%s (equipped as %s)"
-msgstr " (Digunakan)"
+msgstr "%s (Digunakan sebagai %s)"
 
 #: ../Interface/Wx/ItemList.pm:216
 #, fuzzy, perl-format
@@ -1031,11 +1032,11 @@ msgstr "Laporan"
 
 #: ../Interface/Wx.pm:463
 msgid "&Item Change Report"
-msgstr ""
+msgstr "&Laporan Perubahan Item"
 
 #: ../Interface/Wx.pm:464
-msgid "&Monsiter Kill Report"
-msgstr ""
+msgid "&Monster Kill Report"
+msgstr "&Laporan Pembunuhan Monster"
 
 #: ../Interface/Wx.pm:465
 msgid "I&nfo"
@@ -1043,7 +1044,7 @@ msgstr "I&nfo"
 
 #: ../Interface/Wx.pm:470
 msgid "&Map"
-msgstr "&Map"
+msgstr "&Peta"
 
 #: ../Interface/Wx.pm:470
 msgid "Show where you are on the current map"
@@ -1059,7 +1060,7 @@ msgstr "Tunjukkan atau sembunyikan bar informasi."
 
 #: ../Interface/Wx.pm:476
 msgid "Chat &Log"
-msgstr "Chat &Log"
+msgstr "&Log Percakapan"
 
 #: ../Interface/Wx.pm:476
 msgid "Show or hide the chat log."
@@ -1115,20 +1116,20 @@ msgstr "Bersihkan konten dari console"
 
 #: ../Interface/Wx.pm:503
 msgid "Clear Chat History"
-msgstr ""
+msgstr "Bersihkan Riwayat Percakapan"
 
 #: ../Interface/Wx.pm:503
 msgid "Clear chat history"
-msgstr ""
+msgstr "Bersihkan Riwayat Percakapan"
 
 #: ../Interface/Wx.pm:504
 #, fuzzy
 msgid "Clear Item History"
-msgstr "Skill point"
+msgstr "Bersihkan Riwayat Item"
 
 #: ../Interface/Wx.pm:504
 msgid "Clear item history"
-msgstr ""
+msgstr "Bersihkan Riwayat Item"
 
 #: ../Interface/Wx.pm:506
 msgid "&View"
@@ -1136,23 +1137,23 @@ msgstr "&Lihat"
 
 #: ../Interface/Wx.pm:510
 msgid "&Merchant"
-msgstr ""
+msgstr "&Pedagan"
 
 #: ../Interface/Wx.pm:511
 msgid "Accept deal"
-msgstr ""
+msgstr "Terima Tawaran"
 
 #: ../Interface/Wx.pm:511
 msgid "Accept/Finalise current deal"
-msgstr ""
+msgstr "Terima Tawaran saat ini"
 
 #: ../Interface/Wx.pm:512
 msgid "Reject deal"
-msgstr ""
+msgstr "Tolak Penawaran"
 
 #: ../Interface/Wx.pm:512
 msgid "Reject current deal"
-msgstr ""
+msgstr "Tolak Penawaran saat ini"
 
 #: ../Interface/Wx.pm:513
 #, fuzzy
@@ -1161,27 +1162,27 @@ msgstr "Meminta informasi guild...\n"
 
 #: ../Interface/Wx.pm:513
 msgid "View the information of current deal"
-msgstr ""
+msgstr "Lihat informasi tawaran saat ini"
 
 #: ../Interface/Wx.pm:516
 msgid "Ignore all deals (0)"
-msgstr ""
+msgstr "Tolak semua tawaran (0)"
 
 #: ../Interface/Wx.pm:516
 msgid "Ignore all incoming deal requests"
-msgstr ""
+msgstr "Abaikan semua permintaan tawaran yang akan datang"
 
 #: ../Interface/Wx.pm:517
 msgid "Reject all deals (1)"
-msgstr ""
+msgstr "Tolak semua permintaan tawaran (1)"
 
 #: ../Interface/Wx.pm:517
 msgid "Reject all incoming deal requests"
-msgstr ""
+msgstr "Tolak semua permintaan tawaran yang akan datang"
 
 #: ../Interface/Wx.pm:518
 msgid "Accept all deals (2)"
-msgstr ""
+msgstr "terima semua tawaran (2)"
 
 #: ../Interface/Wx.pm:518
 #, fuzzy
@@ -1190,28 +1191,28 @@ msgstr "Menerima secara otomatis permintaan grup\n"
 
 #: ../Interface/Wx.pm:521
 msgid "Open shop"
-msgstr ""
+msgstr "Buka toko"
 
 #: ../Interface/Wx.pm:522
 #, fuzzy
 msgid "Close shop"
-msgstr "Tutup"
+msgstr "Tutup toko"
 
 #: ../Interface/Wx.pm:523
 msgid "Current shop status"
-msgstr ""
+msgstr "Status terkini toko"
 
 #: ../Interface/Wx.pm:523
 msgid "View your shop status"
-msgstr ""
+msgstr "Lihat status toko anda"
 
 #: ../Interface/Wx.pm:524
 msgid "Nearby shop list"
-msgstr ""
+msgstr "Daftar toko terdekat"
 
 #: ../Interface/Wx.pm:524
 msgid "View shops nearby"
-msgstr ""
+msgstr "Lihat toko terdekat"
 
 #: ../Interface/Wx.pm:527
 msgid "Reload shop.txt"
@@ -1229,7 +1230,7 @@ msgstr "Perintah"
 #: ../Interface/Wx.pm:534
 #, fuzzy
 msgid "Teleport"
-msgstr "Laporan"
+msgstr ""
 
 #: ../Interface/Wx.pm:535
 msgid "Memo position"
@@ -1237,15 +1238,15 @@ msgstr ""
 
 #: ../Interface/Wx.pm:535
 msgid "Memorise the current coordinate for teleport"
-msgstr ""
+msgstr "Ingat koordinat ini untuk teleport"
 
 #: ../Interface/Wx.pm:537
 msgid "Sit down"
-msgstr ""
+msgstr "Duduk"
 
 #: ../Interface/Wx.pm:538
 msgid "Stand up"
-msgstr ""
+msgstr "Berdiri"
 
 #: ../Interface/Wx.pm:540
 #, fuzzy
@@ -1333,11 +1334,11 @@ msgstr "Menolak secara otomatis permintaan grup\n"
 
 #: ../Interface/Wx.pm:558
 msgid "Leave party"
-msgstr ""
+msgstr "Meninggalkan party"
 
 #: ../Interface/Wx.pm:558
 msgid "Leave the current party"
-msgstr ""
+msgstr "Meninggalkan party ini"
 
 #: ../Interface/Wx.pm:559
 #, fuzzy
@@ -1416,27 +1417,27 @@ msgstr ""
 
 #: ../Interface/Wx.pm:586
 msgid "Reload All Configs"
-msgstr ""
+msgstr "Mengembalikan semua pengaturan"
 
 #: ../Interface/Wx.pm:588
 msgid "Close All PM"
-msgstr ""
+msgstr "tutup semua pesan pribadi"
 
 #: ../Interface/Wx.pm:588
 msgid "Ignore all PM from all people"
-msgstr ""
+msgstr "abaikan semua pesan pribadi dari siapapun"
 
 #: ../Interface/Wx.pm:589
 msgid "Open All PM"
-msgstr ""
+msgstr "buka semua pesan pribadi"
 
 #: ../Interface/Wx.pm:589
 msgid "Accept all PM from all people"
-msgstr ""
+msgstr "terima semua pesan pribadi dari siapapin"
 
 #: ../Interface/Wx.pm:591
 msgid "Turn off random routing"
-msgstr ""
+msgstr "matikan routing acak"
 
 #: ../Interface/Wx.pm:591
 msgid "Not randomly walking in the map"
@@ -1444,7 +1445,7 @@ msgstr ""
 
 #: ../Interface/Wx.pm:592
 msgid "Turn on random routing (1)"
-msgstr ""
+msgstr "nyalakan routing acak (1)"
 
 #: ../Interface/Wx.pm:592
 msgid "Randomly walking in the map"
@@ -1452,7 +1453,7 @@ msgstr ""
 
 #: ../Interface/Wx.pm:593
 msgid "Turn on random routing (2)"
-msgstr ""
+msgstr "nyalakan routing acak (2s)"
 
 #: ../Interface/Wx.pm:593
 msgid "Randomly walking in the map without walking into portals"
@@ -1491,7 +1492,7 @@ msgstr ""
 #: ../Interface/Wx.pm:599
 #, fuzzy
 msgid "Not picking any items"
-msgstr "terlalu banyak item"
+msgstr "tidak mengambil item apapun"
 
 #: ../Interface/Wx.pm:600
 msgid "Turn on item picking (1)"
@@ -1511,7 +1512,7 @@ msgstr ""
 
 #: ../Interface/Wx.pm:603
 msgid "&Advanced..."
-msgstr "&Advanced..."
+msgstr "&Lanjutan..."
 
 #: ../Interface/Wx.pm:603
 msgid "Edit advanced configuration options."
@@ -1618,7 +1619,7 @@ msgstr "Membaca file... %.0f%%"
 
 #: ../Interface/Wx.pm:871
 msgid "Initializing..."
-msgstr "Persiapan..."
+msgstr "Mempersiapkan..."
 
 #: ../Interface/Wx.pm:873
 msgid "Not connected"
@@ -1626,11 +1627,11 @@ msgstr "Tidak terhubung"
 
 #: ../Interface/Wx.pm:875
 msgid "Connecting..."
-msgstr "Melakukan koneksi hubungan..."
+msgstr "Menghubungkan..."
 
 #: ../Interface/Wx.pm:898
 msgid "Paused"
-msgstr "Hentikan sementara"
+msgstr "berhenti sebentar"
 
 #: ../Interface/Wx.pm:1013
 msgid "You're not logged in.\n"
@@ -1783,7 +1784,7 @@ msgstr ""
 #: ../Network/Receive/ServerType0.pm:5775
 #, fuzzy
 msgid " Buyer: "
-msgstr "List Quest"
+msgstr "Pembeli"
 
 #: ../Network/Receive/kRO/RagexeRE_2010_03_09a.pm:108
 #, fuzzy
@@ -1799,7 +1800,7 @@ msgstr ""
 #: ../Network/Receive/ServerType0.pm:5806
 #, perl-format
 msgid "Price limit: %s Zeny\n"
-msgstr ""
+msgstr "Batas Harga: %s Zeny"
 
 #: ../Network/Receive/kRO/RagexeRE_2010_04_20a.pm:62
 #, fuzzy
@@ -1819,14 +1820,14 @@ msgstr "Permintaan Transaksi gagal (error yang tidak diketahui %s).\n"
 #: ../Network/Receive/kRO/RagexeRE_2010_04_20a.pm:89
 #: ../Network/Receive/ServerType0.pm:5823
 #, perl-format
-msgid "You have sold %s. Amount: %s. Total zeny: %sz\n"
-msgstr ""
+msgid "You have sold %s. Amount: %s. Total zeny: %s z\n"
+msgstr "Anda telah menjual %s. Jumlah: %s. Total zeny: %s z\n"
 
 #: ../Network/Receive/kRO/RagexeRE_2010_04_20a.pm:99
 #: ../Network/Receive/ServerType0.pm:5829
 #, fuzzy
 msgid "The deal has failed.\n"
-msgstr "Penaksiran item gagal.\n"
+msgstr "Transaksi item gagal.\n"
 
 #: ../Network/Receive/kRO/RagexeRE_2010_04_20a.pm:101
 #: ../Network/Receive/ServerType0.pm:5831
@@ -1834,7 +1835,7 @@ msgstr "Penaksiran item gagal.\n"
 msgid ""
 "%s item could not be sold because you do not have the wanted amount of "
 "items.\n"
-msgstr ""
+msgstr "%s item tidak dapat dijual karena kamu anda tidak memiliki jumlah yang cukup."
 
 #: ../Network/Receive/kRO/RagexeRE_2010_04_20a.pm:103
 #: ../Network/Receive/ServerType0.pm:5833
@@ -2241,7 +2242,7 @@ msgstr "%s berubah profesi jadi: %s\n"
 #: ../Network/Receive/ServerType0.pm:2195
 #, perl-format
 msgid "Get MVP item %s\n"
-msgstr ""
+msgstr "Mendapatkan item MVP %s\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:1895
 #: ../Network/Receive/kRO/Sakexe_0.pm:1896
@@ -2249,13 +2250,13 @@ msgstr ""
 #: ../Network/Receive/ServerType0.pm:2202
 #, perl-format
 msgid "%s become MVP!\n"
-msgstr ""
+msgstr "%s adalah MVP!\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:1901
 #: ../Network/Receive/ServerType0.pm:2207
 #, perl-format
 msgid "Congratulations, you are the MVP! Your reward is %s exp!\n"
-msgstr ""
+msgstr "Selamat, kamu adalah MVP! Hadiah anda adalah %s exp!\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:1925
 #: ../Network/Receive/ServerType0.pm:2229
@@ -2806,12 +2807,12 @@ msgstr "Kesalahan Tipe Senjata"
 #: ../Network/Receive/kRO/Sakexe_0.pm:3188
 #: ../Network/Receive/ServerType0.pm:3702
 msgid "Red Gem Needed"
-msgstr "Dibutuhkan Red Gem"
+msgstr "Dibutuhkan Gem Merah"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:3189
 #: ../Network/Receive/ServerType0.pm:3703
 msgid "Blue Gem Needed"
-msgstr "Dibutuhkan Blue Gem"
+msgstr "Dibutuhkan Gem" Biru
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:3190
 #: ../Network/Receive/ServerType0.pm:3704
@@ -2838,7 +2839,7 @@ msgstr ""
 #: ../Network/Receive/ServerType0.pm:3708
 #, perl-format
 msgid "Must have at least %s of base XP"
-msgstr ""
+msgstr "Kamu harus mempunyai %s dari XP"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:3195
 #: ../Network/Receive/ServerType0.pm:3709
@@ -3362,7 +3363,7 @@ msgstr "Menemukan %s item di auction.\n"
 #: ../Network/Receive/kRO/Sakexe_0.pm:4239
 #: ../Network/Receive/ServerType0.pm:4993
 msgid "Auction"
-msgstr "Auction"
+msgstr "Pelelangan"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4240
 #: ../Network/Receive/kRO/Sakexe_0.pm:4271
@@ -3375,27 +3376,27 @@ msgstr "@%s @%s @%s @%s @%s"
 #: ../Network/Receive/kRO/Sakexe_0.pm:4286
 #: ../Network/Receive/ServerType0.pm:5042
 msgid "You have ended the auction.\n"
-msgstr "Anda telah mengakhiri Auction.\n"
+msgstr "Anda telah mengakhiri Pelelangan.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4288
 #: ../Network/Receive/ServerType0.pm:5044
 msgid "You cannot end the auction.\n"
-msgstr "Anda tidak dapat mengakhiri auction.\n"
+msgstr "Anda tidak dapat mengakhiri Pelelangan.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4290
 #: ../Network/Receive/ServerType0.pm:5046
 msgid "Bid number is incorrect.\n"
-msgstr "Angka Bid tidak benar.\n"
+msgstr "Angka Tawaran tidak benar.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4299
 #: ../Network/Receive/ServerType0.pm:5055
 msgid "Auction window is now closed.\n"
-msgstr "Window Auction sekarang ditutup.\n"
+msgstr "Jendela Pelelangan sekarang ditutup.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4302
 #: ../Network/Receive/ServerType0.pm:5058
 msgid "Auction window is now opened.\n"
-msgstr "Window Auction sekarang dibuka.\n"
+msgstr "Jendela Pelelangan sekarang dibuka.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4309
 #: ../Network/Receive/ServerType0.pm:5065
@@ -3460,7 +3461,7 @@ msgstr ""
 #: ../Network/Receive/kRO/Sakexe_0.pm:4349
 #: ../Network/Receive/ServerType0.pm:5105
 msgid "Already allied.\n"
-msgstr "Telah bergabung dalam sekutu.\n"
+msgstr "Telah tergabung dalam sekutu.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4351
 #: ../Network/Receive/ServerType0.pm:5107
@@ -3526,29 +3527,29 @@ msgstr "Anda telah: dilepaskan mute oleh %s.\n"
 #: ../Network/Receive/kRO/Sakexe_0.pm:4397
 #: ../Network/Receive/ServerType0.pm:5153
 msgid "Sun"
-msgstr "Sun"
+msgstr "Matahari"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4397
 #: ../Network/Receive/ServerType0.pm:5153
 msgid "Moon"
-msgstr "Moon"
+msgstr "Bulan"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4397
 #: ../Network/Receive/ServerType0.pm:5153
 msgid "Stars"
-msgstr "Stars"
+msgstr "Bintan"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4397
 #: ../Network/Receive/ServerType0.pm:5153
 #, fuzzy, perl-format
 msgid "Unknown (%d)"
-msgstr "Unknown #"
+msgstr "Tidak Dikethaui #"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4399
 #: ../Network/Receive/ServerType0.pm:5155
 #, perl-format
 msgid "You have now marked: %s as Place of the %s.\n"
-msgstr "Anda telah memarka: %s sebagai Place of the %s.\n"
+msgstr "Anda telah menandai: %s sebagai Place of the %s.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4401
 #: ../Network/Receive/ServerType0.pm:5157
@@ -3560,13 +3561,13 @@ msgstr "%s telah dimarka sebagai Place of the %s.\n"
 #: ../Network/Receive/ServerType0.pm:5159
 #, perl-format
 msgid "You have now marked %s as Target of the %s.\n"
-msgstr "Anda telah memarka %s sebagai Target of the %s.\n"
+msgstr "Anda telah menandai %s sebagai Target of the %s.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4405
 #: ../Network/Receive/ServerType0.pm:5161
 #, perl-format
 msgid "%s is marked as Target of the %s.\n"
-msgstr "%s telah dimarka sebagai Target of the %s.\n"
+msgstr "%s telah ditandai sebagai Target of the %s.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4407
 #: ../Network/Receive/ServerType0.pm:5163
@@ -3610,12 +3611,12 @@ msgstr "Blade Stop oleh %s pada %s sedang aktif.\n"
 #: ../Network/Receive/ServerType0.pm:5259
 #, perl-format
 msgid "%s and %s have divorced from each other.\n"
-msgstr "%s dan %s telah bercerai satu sama lain.\n"
+msgstr "%s dan %s telah berpisah satu sama lain.\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4505
 #: ../Network/Receive/ServerType0.pm:5267
 msgid "Upgrade List"
-msgstr "List Upgrade"
+msgstr "Daftar Upgrade"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4522
 #: ../Network/Receive/kRO/Sakexe_0.pm:4524
@@ -3813,7 +3814,7 @@ msgstr ""
 #: ../Network/Receive/ServerType0.pm:2551
 #, fuzzy
 msgid "Reserve deleted successfully!\n"
-msgstr "Mail berhasil dikirimkan.\n"
+msgstr "Pemesanan berhasil dihapus!\n"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:4797
 #: ../Network/Receive/ServerType0.pm:2553
@@ -4334,15 +4335,15 @@ msgstr "Mengakhiri koneksi (%s:%s)..."
 
 #: ../Network/DirectConnection.pm:243
 msgid "disconnected\n"
-msgstr "Telah disconnect\n"
+msgstr "Telah terputus\n"
 
 #: ../Network/DirectConnection.pm:244
 msgid "couldn't disconnect\n"
-msgstr "Tidak dapat connect\n"
+msgstr "Tidak dapat memutus\n"
 
 #: ../Network/DirectConnection.pm:329
 msgid "Connecting to Account Server...\n"
-msgstr "Melakukan koneksi ke Account Server...\n"
+msgstr "Menyambung ke Account Server...\n"
 
 #: ../Network/DirectConnection.pm:358
 msgid "Requesting permission to logon on account server...\n"
@@ -4550,34 +4551,34 @@ msgstr "Anda baru saja meninggal.\n"
 #: ../Network/Receive.pm:913
 #, perl-format
 msgid "Player Died: %s (%d) %s %s\n"
-msgstr "Player Meninggal: %s (%d) %s %s\n"
+msgstr "Pemain Meninggal: %s (%d) %s %s\n"
 
 #: ../Network/Receive.pm:981
 #, perl-format
 msgid "Slave Died: %s (%d) %s\n"
-msgstr "Slave Meninggal: %s (%d) %s\n"
+msgstr "Budak Meninggal: %s (%d) %s\n"
 
 #: ../Network/Receive.pm:1028 ../Commands.pm:4579
 msgid "You are sitting.\n"
-msgstr "Anda duduk.\n"
+msgstr "Anda sedang duduk.\n"
 
 #: ../Network/Receive.pm:1032
 #, perl-format
 msgid "%s is sitting.\n"
-msgstr "%s duduk.\n"
+msgstr "%s sedang duduk.\n"
 
 #: ../Network/Receive.pm:1042
 msgid "You are standing.\n"
-msgstr "Anda berdiri.\n"
+msgstr "Anda sedang berdiri.\n"
 
 #: ../Network/Receive.pm:1048
 #, perl-format
 msgid "%s is standing.\n"
-msgstr "%s berdiri.\n"
+msgstr "%s sedang berdiri.\n"
 
 #: ../Network/Receive.pm:1059
 msgid "Miss!"
-msgstr "Miss!"
+msgstr "Gagal!"
 
 #: ../Network/Receive.pm:1241
 msgid "============= Account payment information =============\n"
@@ -4781,7 +4782,7 @@ msgstr "%s meninggalkan grup\n"
 #: ../Network/Receive.pm:1673
 #, perl-format
 msgid "%s was sold\n"
-msgstr ""
+msgstr "%s telah terjual\n"
 
 #: ../Network/Receive.pm:1675
 #, perl-format
@@ -4815,7 +4816,7 @@ msgstr "koin"
 #. Translation Comment: Amulet of the warlock
 #: ../Network/Receive.pm:1721
 msgid "amulet"
-msgstr ""
+msgstr "jimat"
 
 #: ../Network/Receive.pm:1723
 #, fuzzy
@@ -4859,7 +4860,7 @@ msgstr ""
 #: ../Network/Receive.pm:1791 ../Network/Receive.pm:1867
 #, fuzzy
 msgid "PIN code is correct.\n"
-msgstr "Angka Bid tidak benar.\n"
+msgstr "Kode PIN tidak benar.\n"
 
 #: ../Network/Receive.pm:1803 ../Network/Receive.pm:1879
 msgid "Server requested PIN password in order to select your character.\n"
@@ -4898,7 +4899,7 @@ msgstr ""
 #: ../Network/Receive.pm:1846 ../Network/Receive.pm:1904
 #, fuzzy
 msgid "PIN code is incorrect.\n"
-msgstr "Angka Bid tidak benar.\n"
+msgstr "Kode PIN tidak benar.\n"
 
 #: ../Network/Receive.pm:2124
 #, fuzzy, perl-format
@@ -5219,7 +5220,7 @@ msgstr "Disconnecting saat level %s!\n"
 #: ../Network/Receive.pm:3152
 #, fuzzy
 msgid "*** Server is closed , auto disconnect! ***\n"
-msgstr "*** Anda meninggal, disconnect secara otomatis! ***\n"
+msgstr "*** Server ditutup, disconnect secara otomatis! ***\n"
 
 #: ../Network/Receive.pm:3155
 msgid "Error: Server is closed\n"
@@ -5915,7 +5916,7 @@ msgstr ""
 
 #: ../Actor.pm:370
 msgid "Your "
-msgstr "Anda"
+msgstr "Milik Anda"
 
 #: ../Actor.pm:382
 msgid "itself"
@@ -6443,23 +6444,23 @@ msgstr ""
 
 #: ../Commands.pm:1112
 msgid "New"
-msgstr ""
+msgstr "Baru"
 
 #: ../Commands.pm:1113
 msgid "Popular"
-msgstr ""
+msgstr "Populer"
 
 #: ../Commands.pm:1114
 msgid "Limited"
-msgstr ""
+msgstr "Terbatas"
 
 #: ../Commands.pm:1115
 msgid "Rental"
-msgstr ""
+msgstr "Pinjaman"
 
 #: ../Commands.pm:1116
 msgid "Perpetuity"
-msgstr ""
+msgstr "Ketersediaan"
 
 #: ../Commands.pm:1117
 msgid "Buff"
@@ -6467,11 +6468,11 @@ msgstr ""
 
 #: ../Commands.pm:1118
 msgid "Recovery"
-msgstr ""
+msgstr "Pemulihan"
 
 #: ../Commands.pm:1119
 msgid "Etc"
-msgstr ""
+msgstr "dan lain lain"
 
 #: ../Commands.pm:1124
 msgid " Tab: "
@@ -7613,7 +7614,7 @@ msgstr ""
 
 #: ../Commands.pm:2816
 msgid " Available commands "
-msgstr ""
+msgstr "Perintah tersedia"
 
 #: ../Commands.pm:2854
 #, perl-format
